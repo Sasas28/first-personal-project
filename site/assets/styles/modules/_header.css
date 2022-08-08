@@ -1,0 +1,19 @@
+.header {
+
+    &__logo {
+        width: 100px;
+        height: 97.22px;
+
+        a {
+            display: block;
+        }
+    }
+
+    &__menu > span {
+        display: block;
+        background-color: $megaBlue;
+        width: 25px;
+        height: 3px;
+        margin: 5px 0;
+    }
+}

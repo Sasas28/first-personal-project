@@ -1,0 +1,31 @@
+.hero {
+    display: grid;
+
+    &__image {
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    &__txtContent {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        background-color: rgba(4,63,121,0.8);
+        display: grid;
+
+        div {
+            align-self: center;
+            text-align: center;
+        }
+        
+        a {
+            text-transform: uppercase;
+        }
+    }
+
+    &__title {
+        color: #fff;
+        font-weight: 300;
+        font-size: 2.4rem;
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
+    }
+}

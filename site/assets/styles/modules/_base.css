@@ -1,10 +1,36 @@
-$mainBlue: #2f5572;
+* {
+    box-sizing: border-box;
+}
 
 body {
-    color: $mainBlue;
-    background-color: rgb(128, 81, 20);
+    font-family: 'Roboto', 'san-serif';
+}
 
-    .test {
-        color: purple;
-    }
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 2rem;
+}
+
+.flexWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: $mainOrange;
+    color: #fff;
 }

@@ -1,11 +1,2 @@
-$mainBlue: #2f5572;
-
-body {
-    color: $mainBlue;
-
-    .test {
-        color: orange;
-    }
-}
-
-
+@import 'normalize.css';
+@import 'modules/_base';

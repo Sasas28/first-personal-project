@@ -1,0 +1,10 @@
+$mainBlue: #2f5572;
+
+body {
+    color: $mainBlue;
+    background-color: rgb(128, 81, 20);
+
+    .test {
+        color: purple;
+    }
+}
